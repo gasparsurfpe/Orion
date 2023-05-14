@@ -1,0 +1,23 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 447
+  Width = 697
+  object coenxao: TFDConnection
+    LoginPrompt = False
+    Left = 40
+    Top = 16
+  end
+  object FDTransaction1: TFDTransaction
+    Connection = coenxao
+    Left = 208
+    Top = 8
+  end
+  object FDPhysFBDriverLink: TFDPhysFBDriverLink
+    Left = 48
+    Top = 80
+  end
+  object DataSource: TDataSource
+    Left = 104
+    Top = 16
+  end
+end

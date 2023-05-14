@@ -1,0 +1,39 @@
+unit frmlogin;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls,
+  Vcl.Imaging.pngimage, Vcl.Mask, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf,
+  FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt, Data.DB, Dados,
+  FireDAC.Comp.DataSet, FireDAC.Comp.Client;
+
+type
+  Tfrmcarrega = class(TForm)
+    Panel1: TPanel;
+    pb2: TPanel;
+    LBbem: TLabel;
+    Image1: TImage;
+    lcgestor: TLabel;
+    lbversão: TLabel;
+    lbinfor: TLabel;
+    lbusuario: TLabel;
+    lbsenha: TLabel;
+    ComboBox1: TComboBox;
+    Label1: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmcarrega: Tfrmcarrega;
+
+implementation
+
+{$R *.dfm}
+
+end.

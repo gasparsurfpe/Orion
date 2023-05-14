@@ -1,0 +1,21 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 447
+  Width = 697
+  object fdconexao: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\SRV\Documents\Embarcadero\Studio\Orion\Dados\O' +
+        'RION.FDB'
+      'Password=masterkey'
+      'User_Name=SYSDBA'
+      'DriverID=FB')
+    Left = 32
+    Top = 16
+  end
+  object FDTransaction1: TFDTransaction
+    Connection = fdconexao
+    Left = 32
+    Top = 128
+  end
+end

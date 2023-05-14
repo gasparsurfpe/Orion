@@ -1,0 +1,14 @@
+program Orion;
+
+uses
+  Vcl.Forms,
+  frmlogin in '..\Pas\frmlogin.pas' {frmcarrega};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(Tfrmcarrega, frmcarrega);
+  Application.Run;
+end.

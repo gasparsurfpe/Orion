@@ -1,0 +1,27 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 447
+  Width = 697
+  object coenxao: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\SRV\Documents\Embarcadero\Studio\Orion\Dados\O' +
+        'RION.FDB'
+      'Password=masterkey'
+      'User_Name=SYSDBA'
+      'DriverID=FB')
+    LoginPrompt = False
+    Left = 24
+    Top = 8
+  end
+  object FDTransaction: TFDTransaction
+    Connection = coenxao
+    Left = 32
+    Top = 160
+  end
+  object FDPhysFBDriverLink: TFDPhysFBDriverLink
+    VendorLib = 'C:\Program Files (x86)\Firebird\Firebird_3_0\fbclient.dll'
+    Left = 32
+    Top = 80
+  end
+end

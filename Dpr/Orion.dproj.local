@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/12 21:58:25.000.455,=C:\Users\SRV\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/13 07:27:08.000.752,=C:\Users\SRV\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/13 07:28:02.000.901,C:\Users\SRV\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\SRV\Documents\Embarcadero\Studio\Orion\Pas\ULogin.dfm</Transaction>
+    <Transaction>2023/05/13 07:28:02.000.901,C:\Users\SRV\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\SRV\Documents\Embarcadero\Studio\Orion\Pas\ULogin.pas</Transaction>
+    <Transaction>2023/05/13 07:28:31.000.941,C:\Users\SRV\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\SRV\Documents\Embarcadero\Studio\Orion\Dpr\Orion.dproj</Transaction>
+    <Transaction>2023/05/14 10:57:47.000.094,=C:\Users\SRV\Documents\Embarcadero\Studio\Orion\Dpr\Unit1.pas</Transaction>
+    <Transaction>2023/05/14 10:58:13.000.495,C:\Users\SRV\Documents\Embarcadero\Studio\Orion\Dpr\Unit1.pas=C:\Users\SRV\Documents\Embarcadero\Studio\Orion\Dpr\UDados.pas</Transaction>
+    <Transaction>2023/05/14 10:58:13.000.495,C:\Users\SRV\Documents\Embarcadero\Studio\Orion\Dpr\Unit1.dfm=C:\Users\SRV\Documents\Embarcadero\Studio\Orion\Dpr\UDados.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

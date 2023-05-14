@@ -1,0 +1,16 @@
+program Orion;
+
+uses
+  Vcl.Forms,
+  frmlogin in '..\Pas\frmlogin.pas' {frmcarrega},
+  Dados in '..\Pas\Dados.pas' {DataModule1: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(Tfrmcarrega, frmcarrega);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.Run;
+end.
